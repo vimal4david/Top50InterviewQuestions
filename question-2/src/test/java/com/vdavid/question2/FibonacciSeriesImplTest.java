@@ -18,54 +18,54 @@ class FibonacciSeriesImplTest {
   }
 
   @Test
-  void returnEmptyListWhenLastNumberIsZero() {
+  void returnSingletonListWhenNthTermIsOne() {
     // when
-    int lastNumber = 0;
+    int nthTerm = 1;
 
     // then
-    final List<Integer> actual = underTest.getFibonacciSeriesUntilNumber(lastNumber);
+    final List<Integer> actual = underTest.getFibonacciSeriesNthNumber(nthTerm);
 
     // give
-    final List<Integer> expected = Collections.emptyList();
+    final List<Integer> expected = Collections.singletonList(0);
     assertIterableEquals(expected, actual);
   }
 
   @Test
-  void returnListWithOnesWhenLastNumberIsOne() {
+  void returnListWithZeroAndOneWhenNthTermIsTwo() {
     // when
-    int lastNumber = 1;
+    int nthTerm = 2;
 
     // then
-    final List<Integer> actual = underTest.getFibonacciSeriesUntilNumber(lastNumber);
+    final List<Integer> actual = underTest.getFibonacciSeriesNthNumber(nthTerm);
 
     // give
-    final List<Integer> expected = Arrays.asList(1, 1);
+    final List<Integer> expected = Arrays.asList(0, 1);
     assertIterableEquals(expected, actual);
   }
 
   @Test
-  void returnFirstThreeNumbersWhenLastNumberIsTwo() {
+  void returnFirstThreeFibonacciNumbersWhenNthTermIsThree() {
     // when
-    int lastNumber = 2;
+    int nthTerm = 3;
 
     // then
-    final List<Integer> actual = underTest.getFibonacciSeriesUntilNumber(lastNumber);
+    final List<Integer> actual = underTest.getFibonacciSeriesNthNumber(nthTerm);
 
     // give
-    final List<Integer> expected = Arrays.asList(1, 1, 2);
+    final List<Integer> expected = Arrays.asList(0, 1, 1);
     assertIterableEquals(expected, actual);
   }
 
   @Test
-  void returnFibonacciSeriesUpto12NosWhenLastNumberIs144() {
+  void returnFibonacciSeriesUpto12NosWhenNthTermIs12() {
     // when
-    int lastNumber = 144;
+    int lastNumber = 12;
 
     // then
-    final List<Integer> actual = underTest.getFibonacciSeriesUntilNumber(lastNumber);
+    final List<Integer> actual = underTest.getFibonacciSeriesNthNumber(lastNumber);
 
     // give
-    final List<Integer> expected = Arrays.asList(1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144);
+    final List<Integer> expected = Arrays.asList(0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89);
     assertIterableEquals(expected, actual);
   }
 }

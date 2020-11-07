@@ -4,5 +4,5 @@ import java.util.List;
 
 public interface FibonacciSeries {
 
-  List<Integer> getFibonacciSeriesUntilNumber(int lastNumber);
+  List<Integer> getFibonacciSeriesNthNumber(int number);
 }
