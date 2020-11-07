@@ -123,7 +123,7 @@
           </execution>
         </executions>
         <configuration>
-          <failBuildOnCVSS>1</failBuildOnCVSS>
+          <failBuildOnCVSS>9</failBuildOnCVSS>
         </configuration>
       </plugin>
       <plugin>
