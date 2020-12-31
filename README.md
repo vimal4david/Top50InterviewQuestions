@@ -12,3 +12,6 @@ Write a short program that prints each number from 1 to 100 on a new line.For ea
 Write a program to calculate and print Fibonacci number using both recursion and Iteration.
  * Fibonacci number is sum of previous two Fibonacci numbers fn= fn-1+ fn-2
  * First 10 Fibonacci numbers are 1, 1, 2, 3, 5, 8, 13, 21, 34, 55
+ 
+ ## Question 3 (Prime Number)
+ Write a Java program to check if a given number is prime or not. Remember, a prime number is a number which is not divisible by any other number, e.g. 3, 5, 7, 11, 13, 17, etc. Be prepared for cross, e.g. checking till the square root of a number, etc.
