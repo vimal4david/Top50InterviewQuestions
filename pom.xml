@@ -11,6 +11,7 @@
     <module>question-1</module>
     <module>question-2</module>
     <module>question-3</module>
+    <module>question-5</module>
   </modules>
   <properties>
     <dependency-check-maven.version>6.0.3</dependency-check-maven.version>

@@ -18,8 +18,9 @@ Write a program to calculate and print Fibonacci number using both recursion and
 Write a program to reverse a string since there is no utility method in the String class.
 * For e.g reverse of string "happy" is "yppah"
 
-
-
- 
  ## Question 4 (Prime Number)
- Write a Java program to check if a given number is prime or not. Remember, a prime number is a number which is not divisible by any other number, e.g. 3, 5, 7, 11, 13, 17, etc. Be prepared for cross, e.g. checking till the square root of a number, etc.
+* Write a Java program to check if a given number is prime or not. Remember, a prime number is a number which is not divisible by any other number, e.g. 3, 5, 7, 11, 13, 17, etc. Be prepared for cross, e.g. checking till the square root of a number, etc.
+
+## Question 5 (Swap 2 numbers)
+* Write a Java program to swap two numbers without using a third variable.
+
