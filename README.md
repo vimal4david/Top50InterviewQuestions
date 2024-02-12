@@ -24,3 +24,8 @@ Write a program to reverse a string since there is no utility method in the Stri
 ## Question 5 (Swap 2 numbers)
 * Write a Java program to swap two numbers without using a third variable.
 
+## Question 6 (Check for vowel)
+* Write a Java program to check if a vowel is present in a string.
+* Vowel (**aeiou**) 
+
+
